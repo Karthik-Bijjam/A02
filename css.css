@@ -1,0 +1,227 @@
+*, body {
+  font-family: 'Poppins','Lato', sans-serif;
+}
+.header .navbar{
+  color: #FAFAFA !important;
+}
+.header{
+  /* background:"art-background-backlit-333850.jpg"; */
+  background-image: url("art-background-backlit-333850.jpg");
+  /* background-repeat: no-repeat, repeat; */
+  height: 100vh; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+.intro{
+  /* min-height: 500px; */
+  display: grid;
+  height: 600px;
+  align-content: center;
+  min-width: 100%;
+  color:white;
+  /* padding-top: 200px; */
+  font-size: 35px;
+  text-align: center;
+}
+ul {
+  list-style: none;
+}
+.intro .header-1 p{
+  /* font-size: 30px; */
+  font-family: 'Poppins','Lato', sans-serif;
+  font-weight: 500;
+  
+}
+.intro .header-name p{
+  /* font-size: 35px; */
+  font-family: 'Poppins','Lato', sans-serif;
+  font-weight: 400;
+}
+.intro .header-fields p{
+  /* font-size: 35px; */
+  font-family: 'Poppins','Lato', sans-serif;
+  font-weight: 400;
+}
+.skills-head{
+  font-size: 24px !important;
+}
+.my-work{
+  padding: 40px;
+}
+.my-work .my-work-tab{
+  /* margin: 5px; */
+  background-color: #FAFAFA;
+}
+.my-work .image{
+  padding-bottom: 10px;
+}
+.my-work .content{
+  padding-left: 15px;
+  padding-right: 15px;
+
+}
+.my-work .content .content-subTitle{
+  font-size: 18px !important;
+  padding-left: 20px !important;
+  font-weight: 200 !important;
+}
+.my-work .content .title{
+  font-size: 24px !important;
+  font-weight: 500;
+}
+.my-work .content .title span{
+  font-size: 30px !important;
+  font-weight: 600;
+}
+.my-work .content .title span a{
+ text-decoration: none;
+ color: #212529;
+}
+.my-work .image img{
+  height: 100%;
+  width: 100%;
+}
+.my-work .heading{
+  text-align: center;
+  font-weight: 500;
+  font-size: 30px;
+}
+.skills {
+  padding: 20px;
+  text-align: right;
+  padding: 0px;
+  color: white;
+}
+.about-text{
+  text-align: justify;
+  text-justify: inter-word;
+}
+.s-wd {width: 90%; background-color: #900c3f;}
+.s-d {width: 80%; background-color: #2196F3;}
+.s-ux {width: 60%; background-color: #808080;}
+
+.intro .header-fields p span{
+  /* font-size: 35px; */
+  color:greenyellow !important;
+}
+
+/* .intro p{
+  color:white;
+  padding-top: 300px;
+  font-size: 30px;
+  text-align: center;
+} */
+.about-me{
+  margin: 20px;
+  /* padding-top:40px;
+  padding-bottom: 40px; */
+}
+footer {
+  text-align: center;
+  padding-top: 40px;
+  color: #ffffff;
+  background-color: #171717;
+  padding-bottom: 40px;
+}
+footer ul li a{
+  color: #ffffff !important;
+}
+.fa{
+  text-align: center;
+  padding: 10px;
+}
+.about-home img{
+    /* border-radius: 50%; */
+    width:400px;
+    height: 500px;
+    margin-left: 100px;
+}
+.about-me p{
+  font-size: 20px;
+  font-family: 'Poppins','Lato', sans-serif;
+}
+.about-home{
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+footer ul li {
+  list-style: none;
+}
+.about-jumbo{
+  text-align: center;
+}
+.mb-20{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.pd-40{
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.aboutheader{
+  font-size: 26px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.aboutcontent {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  padding-left: 20px;
+  padding-right: 20px;
+}
+iframe {
+  width:960px;
+  height:515px;
+}
+.videoEmbeded {
+  padding-left: 160px;
+}
+.about-home span{
+  color: red;
+}
+.intro .typewrite {
+  font-size: 28px;
+  color: white;
+  display: flex;
+  /* height: 300px; */
+  justify-content: center;
+  align-items: center;
+}
+.about-experience{
+  padding: 40px;
+}
+
+.about-experience .experience-heading {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+}
+.about-experience .experience-title {
+  font-size: 25px;
+  font-weight: 500;
+}
+.about-experience .experience-content {
+  
+  font-size: 20px;
+  font-weight: 400;
+}
+.age-calc{
+  text-align: center;
+  padding: 20px;
+
+}
+.pd-10{
+  padding-top:20px;
+  padding-bottom: 20px;
+}
+.heading-description{
+  font-size: 20px;
+}
